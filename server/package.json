@@ -1,0 +1,32 @@
+{
+  "name": "finance-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend for a web application to track income, expenses, and budgeting goals",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js",
+    "test": "jest",
+    "dev2": "npx nodemon app.js"
+  },
+  "jest":{
+    "testEnvironment": "node"
+  },
+  "author": "jesus-perez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
